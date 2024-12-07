@@ -19,7 +19,7 @@ app.post('/predict', upload.single('image'), (req, res) => {
     });
   }
 
-  // Prediksi hasil gambar
+
   const result = predictImage(req.file);
 
   // Response yang sesuai
